@@ -1,0 +1,54 @@
+
+canvas{
+    border: 1px solid black;
+    /* position: static; */
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 13px;
+ }
+
+#fill{
+background-color:green;
+color: #fff;
+padding: 10px 20px;
+border: none;
+outline: none;
+border-radius: 5px;
+}
+#clear{
+background-color:green;
+color: #fff;
+padding: 10px 20px;
+border: none;
+outline: none;
+border-radius: 5px;
+}
+#draw{
+background-color:green;
+color: #fff;
+padding: 10px 20px;
+border: none;
+outline: none;
+border-radius: 5px;
+}
+#rando{
+background-color:green;
+color: #fff;
+padding: 10px 20px;
+border: none;
+outline: none;
+border-radius: 5px;
+}
