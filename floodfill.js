@@ -134,7 +134,6 @@ function getfloodfill(e){
     let coords = getMousePosition(canvas, e); 
     col_num = parseInt(coords[1]);
     row_num = parseInt(coords[0]);
-
     var new_color = {r: 0x0, g: 0x0, b: 0x0, a: 0xff};
     var baseColor = getColorAtPixel(imageData,row_num,col_num);
     Stack.push([row_num, col_num]);
@@ -248,7 +247,6 @@ rando_rec.onmousedown = function(){
 rando_rec.onmouseup = function(){
     rando_rec.style.backgroundColor = "green";
 }
-
 
 
 
