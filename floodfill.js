@@ -3,8 +3,8 @@
 var canvas = document.querySelector('canvas'); // goes through doc and grabs canvas element
 canvas.width = 550;
 canvas.height = 550;
-document.querySelector("hr").style.width = (window.innerWidth * 0.7) + "px";
-document.querySelector(".description").style.width = (window.innerWidth * 0.7) + "px";
+document.querySelector("hr").style.width = "800px";
+document.querySelector(".description").style.width = "800px";
 
 let Stack = [];
 
